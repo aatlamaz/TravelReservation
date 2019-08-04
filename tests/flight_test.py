@@ -1,162 +1,450 @@
+# from selenium import webdriver
+# from pages.flight_pages import FlightPage
+# from base.webdriverfactory import WebDriverFactory
+#
+# import unittest
+# import allure
+#
+#
+# class Flight1(unittest.TestCase):
+#     def test_flight(self):
+#         global driver
+#         wd = WebDriverFactory(browser="chrome.driver")
+#         driver = wd.getWebDriverInstance()
+#
+#
+#         fp = FlightPage(driver)
+#         fp.flights3(" Bos")
+#
+#         expectedUrl = "https://www.expedia.com/"
+#         currentUrl = driver.current_url
+#         print(currentUrl)
+#
+#         if currentUrl == expectedUrl:
+#             print("TC007_Checking The Url Pass")
+#         else:
+#             print("TC007 Checking The Url Fail")
+#
+#
+#         print("*" * 20)
+#
+#
+#         if driver.find_element_by_xpath("//label[@id='flight-type-roundtrip-label-hp-flight']").is_enabled():
+#             print("TC009_Clicking Round Trip Button Pass")
+#         else:
+#             print("TC009_Clicking round Trip Button Fail")
+#
+#
+#         print("*"* 20)
+#
+#
+#         dept_area = (driver.find_element_by_xpath("//section[@id='section-flight-tab-hp']//div[contains(@class,'cols-nested ab25184-location')]//div[1]//div[1]//div[2] "))
+#
+#         if dept_area.is_enabled():
+#             print("TC010_Selecting Depart Area Pass")
+#         else:
+#             print("TC010_Selecting Depart Area Fail")
+#
+#
+#         print("*"* 20)
+#
+#
+#         message = driver.find_element_by_xpath("//h5[@class='alert-title no-outline']")
+#         print(message.text)
+#
+#         if message.text == "Please correct the errors below.":
+#             print("TC016_All Mandatory Fields Should Be Fill Out Pass")
+#         else:
+#             print("TC016_All Mandatory Fields Should Be Fill Out Fail")
+#
+#
+#         print("*" * 20)
+#
+#
+#         dept_date = driver.find_element_by_xpath(" //input[@id='flight-departing-hp-flight']")
+#         print(dept_date.text)
+#
+#         if dept_date.text == "08/24/2019":
+#             print("TC012_Checking Depart Date Pass")
+#         else:
+#             print("TC012_Checking Depart Date Fail")
+#
+#
+#         print("*" * 20)
+#
+#         arriv_date = driver.find_element_by_xpath("//input[@id='flight-returning-hp-flight']")
+#         print(arriv_date.text)
+#
+#         if dept_date.text=="08/24/2019":
+#             print("TC013_Checking Return Date Pass")
+#         else:
+#             print("TC013_Checking Return Date Fail")
+#
+#         fp = FlightPage(driver)
+#         fp.flights1( " New York")
+#
+#         arrival_area = driver.find_element_by_xpath("//section[@id='section-flight-tab-hp']//div[contains(@class,'cols-nested ab25184-location')]//div[1]//div[1]//div[2] ")
+#         if arrival_area.is_enabled():
+#             print("TC011_Selecting The Arrival Area Pass")
+#         else:
+#             print("TC011_Selecting The Arrival Area Fail")
+#
+#
+#         print("*"* 20)
+#
+#
+#
+#
+#
+#         fp= FlightPage(driver)
+#         fp.flights2()
+#
+#         if len(driver.find_elements_by_xpath("//div[@data-test-id='listing-main']"))==0:
+#             print("TC014_Checking The List Of Flights Fail")
+#         else:
+#             print("TC014_Checking The List Of Flights Pass")
+#
+#         print("*"*20)
+#
+#
+#         if (driver.find_element_by_xpath("//span[@class='secondary-playback-summary']")).is_displayed():
+#             print("TC017_Checking The Selections Present Pass")
+#         else:
+#             print("TC017_Checking The Selections Present Fail")
+#
+#         print("*"* 20)
+#
+#
+#         if (driver.find_element_by_xpath("//input[@id='stopFilter_stops-0']")).is_selected():
+#             print("TC019_Selecting Nonstop Button Pass")
+#         else:
+#             print("TC019_Selecting Nonstop Button Fail")
+#
+#         print("*"* 20)
+#
+#         if ((driver.find_element_by_xpath(" //input[@id='airlineRowContainer_AA']")) and (driver.find_element_by_xpath("//input[@id='airlineRowContainer_DL']"))).is_selected():
+#             print("TC020_Selecting Airlines Brand Pass")
+#         else:
+#             print("TC020_Selecting Airlines Brand Fail")
+#
+#         print("*"* 20)
+#
+#         if(driver.find_element_by_xpath("//input[@id='leg0-morning-departure']")).is_selected():
+#             print("TC021_Selecting The Departure Time Pass")
+#         else:
+#             print("TC021_Selecting The Departure Time Fail")
+#
+#
+#         print("*"* 20)
+#
+#
+#         if(driver.find_element_by_xpath("//input[@id='leg0-morning-arrival']")).is_selected():
+#             print("TC022_Selecting Arrival Time Pass")
+#         else:
+#             print("TC022_Selecting Arrival Time Fail")
+#
+#
+#         print("*"* 20)
+#
+#         #
+#         # if(driver.find_element_by_xpath("//input[@id='airportRowContainer_JFK']")).is_selected():
+#         #     print("TC023_Selecting Arrival Airport Pass ")
+#         # else:
+#         #     print("TC023_Selecting Arrival Airport Fail")
+#         #
+#         #
+#         # print("*"* 20)
+
+
 from selenium import webdriver
 from pages.flight_pages import FlightPage
-from base.webdriverfactory import WebDriverFactory
-
+import time
 import unittest
-import allure
+from base.webdriverfactory import WebDriverFactory
+# import allure
 
-
-class Flight1(unittest.TestCase):
-    def test_flight(self):
-        global driver
-        wd = WebDriverFactory(browser="chrome.driver")
+class Flighttest(unittest.TestCase):
+    def test_page1(self):
+        wd = WebDriverFactory(browser="firefox")
         driver = wd.getWebDriverInstance()
+        ft = FlightPage(driver)
 
 
-        fp = FlightPage(driver)
-        fp.flights3(" Bos")
+        """ Click and verify flight tab  """
+        ft.flight()
 
-        expectedUrl = "https://www.expedia.com/"
-        currentUrl = driver.current_url
-        print(currentUrl)
-
-        if currentUrl == expectedUrl:
-            print("TC007_Checking The Url Pass")
+        element=driver.find_element_by_id("tab-flight-tab-hp")
+        if element.is_enabled():
+            print("Test case TC001: Pass")
         else:
-            print("TC007 Checking The Url Fail")
+            print("Test case TC001: Fail")
 
 
-        print("*" * 20)
+        """ Click and verify roundtrip tab  """
+        ft.rounttrip()
 
-
-        if driver.find_element_by_xpath("//label[@id='flight-type-roundtrip-label-hp-flight']").is_enabled():
-            print("TC009_Clicking Round Trip Button Pass")
+        element=driver.find_element_by_xpath("//label[@id='flight-type-roundtrip-label-hp-flight']")
+        if element.is_displayed():
+             print("Test Case Tc002: Pass")
         else:
-            print("TC009_Clicking round Trip Button Fail")
+            print("Test case Tc002: Fail")
 
 
-        print("*"* 20)
+        """ Click and verify destination city tab  """
+        ft.destinationcity("boston")
 
-
-        dept_area = (driver.find_element_by_xpath("//section[@id='section-flight-tab-hp']//div[contains(@class,'cols-nested ab25184-location')]//div[1]//div[1]//div[2] "))
-
-        if dept_area.is_enabled():
-            print("TC010_Selecting Depart Area Pass")
+        if driver.find_element_by_xpath("//*[@id='flight-origin-hp-flight']").is_enabled():
+            print("Test Case TC003: Pass")
         else:
-            print("TC010_Selecting Depart Area Fail")
+            print("Test case TC003: Fail")
 
 
-        print("*"* 20)
+        """ Select destination city and verify """
+        element=driver.find_element_by_xpath("//a[@id='aria-option-1']//span[2]")
 
-
-        message = driver.find_element_by_xpath("//h5[@class='alert-title no-outline']")
-        print(message.text)
-
-        if message.text == "Please correct the errors below.":
-            print("TC016_All Mandatory Fields Should Be Fill Out Pass")
+        if driver.find_element_by_xpath("//a[@id='aria-option-1']//span[2]").is_enabled():
+            ft.destinationselect()
+            print("Test Case TC004: Pass")
         else:
-            print("TC016_All Mandatory Fields Should Be Fill Out Fail")
+            print("Test case TC004: Fail")
 
 
-        print("*" * 20)
+        """ Click and verify arrive city tab  """
+        ft.arrivecity("new york")
 
-
-        dept_date = driver.find_element_by_xpath(" //input[@id='flight-departing-hp-flight']")
-        print(dept_date.text)
-
-        if dept_date.text == "08/24/2019":
-            print("TC012_Checking Depart Date Pass")
+        if driver.find_element_by_xpath("//*[@id='flight-destination-hp-flight']").is_enabled():
+            print("Test Case TC005: Pass")
         else:
-            print("TC012_Checking Depart Date Fail")
+            print("Test case TC005: Fail")
 
 
-        print("*" * 20)
-
-        arriv_date = driver.find_element_by_xpath("//input[@id='flight-returning-hp-flight']")
-        print(arriv_date.text)
-
-        if dept_date.text=="08/24/2019":
-            print("TC013_Checking Return Date Pass")
+        """ Select arrive city and verify  """
+        element = driver.find_element_by_xpath("//*[@id='aria-option-0']/span[2]/div")
+        if element.is_enabled():
+            ft.arriveselect()
+            print("Test Case TC006: Pass")
         else:
-            print("TC013_Checking Return Date Fail")
+            print("Test case TC006: Fail")
 
-        fp = FlightPage(driver)
-        fp.flights1( " New York")
 
-        arrival_area = driver.find_element_by_xpath("//section[@id='section-flight-tab-hp']//div[contains(@class,'cols-nested ab25184-location')]//div[1]//div[1]//div[2] ")
-        if arrival_area.is_enabled():
-            print("TC011_Selecting The Arrival Area Pass")
+        """ Click and verify departure calender tab  """
+        ft.calenderdeparture()
+
+        element = driver.find_element_by_id("flight-departing-hp-flight")
+        if element.is_enabled():
+            print("Test Case TC007: Pass")
         else:
-            print("TC011_Selecting The Arrival Area Fail")
+            print("Test case TC007: Fail")
 
 
-        print("*"* 20)
+        """ Select and verify departure date  """
+        element=driver.find_element_by_xpath("//button[@data-day='25' and @data-month='8']")
 
-
-
-
-
-        fp= FlightPage(driver)
-        fp.flights2()
-
-        if len(driver.find_elements_by_xpath("//div[@data-test-id='listing-main']"))==0:
-            print("TC014_Checking The List Of Flights Fail")
+        if element.is_enabled():
+            ft.datedeparture()
+            print("Test Case TC008: Pass")
         else:
-            print("TC014_Checking The List Of Flights Pass")
-
-        print("*"*20)
+            print("Test case TC008: Fail")
 
 
-        if (driver.find_element_by_xpath("//span[@class='secondary-playback-summary']")).is_displayed():
-            print("TC017_Checking The Selections Present Pass")
+        """ Click and verify arrive calender tab  """
+        ft.calenderarrive()
+
+        if driver.find_element_by_id("flight-returning-hp-flight").is_enabled():
+            print("Test Case TC009: Pass")
         else:
-            print("TC017_Checking The Selections Present Fail")
-
-        print("*"* 20)
+            print("Test case TC009: Fail")
 
 
-        if (driver.find_element_by_xpath("//input[@id='stopFilter_stops-0']")).is_selected():
-            print("TC019_Selecting Nonstop Button Pass")
+        """ Select and verify arrive date """
+        element = driver.find_element_by_xpath("//button[@data-day='28' and @data-month='8']")
+        if element.is_displayed():
+            ft.datearrive()
+            print("Test Case TC010: Pass")
         else:
-            print("TC019_Selecting Nonstop Button Fail")
+            print("Test case TC010: Fail")
 
-        print("*"* 20)
 
-        if ((driver.find_element_by_xpath(" //input[@id='airlineRowContainer_AA']")) and (driver.find_element_by_xpath("//input[@id='airlineRowContainer_DL']"))).is_selected():
-            print("TC020_Selecting Airlines Brand Pass")
+        """ Click and verify travelers tab  """
+        ft.travelers()
+
+        element = driver.find_element_by_xpath("//div[@id='traveler-selector-hp-flight']//div/ul/li/button")
+        if element.is_enabled():
+            print("Test Case TC011: Pass")
         else:
-            print("TC020_Selecting Airlines Brand Fail")
+            print("Test case TC011: Fail")
 
-        print("*"* 20)
 
-        if(driver.find_element_by_xpath("//input[@id='leg0-morning-departure']")).is_selected():
-            print("TC021_Selecting The Departure Time Pass")
+        """ Select and verify travelers number """
+        ft.travelers_plus()
+
+        element = driver.find_element_by_xpath("//*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1]")
+
+        if element.is_enabled():
+            print("Test Case TC012: Pass")
         else:
-            print("TC021_Selecting The Departure Time Fail")
+            print("Test case TC012: Fail")
 
 
-        print("*"* 20)
+        """ Close and verify travelers tab  """
+        element = driver.find_element_by_xpath("//*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button")
 
-
-        if(driver.find_element_by_xpath("//input[@id='leg0-morning-arrival']")).is_selected():
-            print("TC022_Selecting Arrival Time Pass")
+        if element.is_enabled():
+            ft.close_tab()
+            print("Test Case TC013: Pass")
         else:
-            print("TC022_Selecting Arrival Time Fail")
+            print("Test case TC013: Fail")
 
 
-        print("*"* 20)
-
-        #
-        # if(driver.find_element_by_xpath("//input[@id='airportRowContainer_JFK']")).is_selected():
-        #     print("TC023_Selecting Arrival Airport Pass ")
-        # else:
-        #     print("TC023_Selecting Arrival Airport Fail")
-        #
-        #
-        # print("*"* 20)
+        """ Select and verify search tab  """
+        element = driver.find_element_by_css_selector("#gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button")
+        if element.is_enabled():
+            print("Test Case TC014: Pass")
+            ft.search()
+        else:
+            print("Test case TC014: Fail")
 
 
+        """ Filter and verify nonstop flight  """
+        ft.nonstop()
 
+        if (driver.find_element_by_xpath("//input[@id='stopFilter_stops-0']")).is_displayed():
+            print("Test Case TC015: Pass")
+        else:
+            print("Test case TC015: Fail")
+
+    # def test_page2(self):
+    #     wd = WebDriverFactory(browser="firefox")
+    #     driver = wd.get2WebDriverInstance()
+    #     ft = FlightPage(driver)
+    #
+    #     """ Click and verify first flight option  """
+    #     ft.firstflight()
+    #
+    #     if driver.find_element_by_xpath("//*[@id='basic-economy-tray-content-1']/div/div/div[1]/button").is_enabled():
+    #         ft.selectfare()
+    #         print("Test Case TC016: Pass")
+    #     else:
+    #         print("Test case TC016: Fail")
+    #
+    #
+    #     """ Click and verify second flight option  """
+    #     ft.secondflight()
+    #
+    #     if (driver.find_element_by_xpath("//*[@id='xsellAddHotelNow']")).is_enabled():
+    #
+    #         print("Test Case TC017: Pass")
+    #     else:
+    #         print("Test case TC017: Fail")
+    #
+    #
+    #     """ Click and verify nothanks button  """
+    #     ft.nothanks()
+    #
+    #     head_name=driver.find_element_by_xpath("//h1[@class='section-header-main']").text
+    #     if head_name=="Select your return to Boston Sat, Sep 28":
+    #         print("Test Case TC018: Pass")
+    #     else:
+    #         print("Test case TC018: Fail")
+    #
+    # def test_page3(self):
+    #     wd = WebDriverFactory(browser="firefox")
+    #     driver = wd.get3WebDriverInstance()
+    #     ft=FlightPage(driver)
+    #
+    #     """ Click and verify booking tab  """
+    #     ft.booking()
+    #
+    #     location_info=driver.find_element_by_xpath("//div[@class='location-info']").text
+    #     if location_info=="Boston (BOS) to New York (JFK)":
+    #         print("Test Case TC019: Pass")
+    #     else:
+    #         print("Test case TC019: Fail")
+    #
+    #
+    #     """ Select and verify first traveler information part """
+    #     ft.firsttr_name("AZIME")
+    #     ft.firsttr_lastname("SUKUSU")
+    #     ft.phonenumber("8572728900")
+    #     ft.firsttr_gender()
+    #     # ft.firsttr_mob()
+    #     # ft.firsttr_mob1()
+    #     # ft.firsttr_dob()
+    #     # ft.firsttr_dob1()
+    #     # ft.firsttr_yob()
+    #     # ft.firsttr_yob1()
+    #
+    #     if (driver.find_element_by_xpath("//input[@id='firstname[0]']")).is_displayed():
+    #         print("Test Case TC020: Pass")
+    #     else:
+    #         print("Test case TC020: Fail")
+    #
+    #
+    #     """ Select and verify select traveler information part """
+    #     ft.secondtr_name("MERT")
+    #     ft.secondtr_lastname("SUKUSU")
+    #     ft.secondtr_gender()
+    #     # ft.secondtr_mob()
+    #     # ft.secondtr_mob1()
+    #     # ft.secondtr_dob()
+    #     # ft.secondtr_dob1()
+    #     # ft.secondtr_yob()
+    #     # ft.secondtr_yob1()
+    #
+    #     if (driver.find_element_by_xpath("//input[@id='firstname[1]']")).is_displayed():
+    #         print("Test Case TC021: Pass")
+    #     else:
+    #         print("Test case TC021: Fail")
+    #
+    #
+    #     """ Select and verify payment part """
+    #     ft.noinsurance()
+    #     ft.name_oncard("AZIME SUKUSU")
+    #     ft.card_number("5253123456723456")
+    #     ft.expiration_month()
+    #     ft.expiration_month1()
+    #     ft.expiration_year()
+    #     ft.expiration_year1()
+    #     # ft.security_code("253")
+    #
+    #     if (driver.find_element_by_xpath("//select[@name='creditCards[0].expiration_year']")).is_enabled():
+    #         print("Test Case TC022: Pass")
+    #     else:
+    #         print("Test case TC022: Fail")
+    #
+    #
+    #     """ Select and verify billing address part """
+    #     ft.billing_address1("375 ACORN PARK DR")
+    #     ft.billing_address2("APT 4301")
+    #     ft.billingcity("BELMONT")
+    #     ft.billing_state()
+    #     ft.billing_state1()
+    #     ft.billing_zipcode("02478")
+    #     ft.conf_email("azimedalkilinc@gmail.com")
+    #     ft.create_password("12345abcde")
+    #     ft.confirm_password("12345abcde")
+    #
+    #     if (driver.find_element_by_xpath("//input[@name='repeat_password']")).is_enabled():
+    #         print("Test Case TC023: Pass")
+    #     else:
+    #         print("Test case TC023: Fail")
+    #
+    #
+    #     """ Click and verify complete booking button """
+    #
+    #     if (driver.find_element_by_xpath("//button[@id='complete-booking']")).is_enabled():
+    #         # ft.complete_booking()
+    #         print("Test Case TC024: Pass")
+    #     else:
+    #         print("Test case TC024: Fail")
+    #
+
+
+
+ff=Flighttest()
+ff.test_page1()
+# ff.test_page2()
+# ff.test_page3()
 
 
 

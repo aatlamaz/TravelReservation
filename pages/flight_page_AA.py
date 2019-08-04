@@ -74,10 +74,10 @@ class FlightPage(SeleniumDriver):
             self.elementClick(locator=self._search, locatorType='xpath')
 
     def flight(self, orig_city="", dest_city=""): #This is the login functionality
-        
+
         self.clickFlightTab()
         time.sleep(1)
-    
+
         self.clickRoundTrip()
         time.sleep(1)
 
@@ -109,4 +109,6 @@ class FlightPage(SeleniumDriver):
 
         self.clickSearch()
         time.sleep(2)
+
+
 

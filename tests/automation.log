@@ -1,0 +1,138 @@
+08/04/2019 01:19:23 PM - SeleniumDriver - INFO: Element found with locator: //span[@class='tab-label'][contains(text(),'Flights')]  and  locatorType: xpath
+08/04/2019 01:19:25 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[@class='tab-label'][contains(text(),'Flights')]  locatorType: xpath
+08/04/2019 01:19:27 PM - SeleniumDriver - INFO: Element found with locator: //label[@id='flight-type-roundtrip-label-hp-flight'] and  locatorType: xpath
+08/04/2019 01:19:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //label[@id='flight-type-roundtrip-label-hp-flight'] locatorType: xpath
+08/04/2019 01:19:29 PM - SeleniumDriver - INFO: Element found with locator: #flight-origin-hp-flight and  locatorType: css
+08/04/2019 01:19:31 PM - SeleniumDriver - INFO: Element found with locator: //ap//b[contains(text(),'BOS')]  and  locatorType: xpath
+08/04/2019 01:19:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //ap//b[contains(text(),'BOS')]  locatorType: xpath
+08/04/2019 01:19:34 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='flight-departing-hp-flight'] and  locatorType: xpath
+08/04/2019 01:19:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='flight-departing-hp-flight'] locatorType: xpath
+08/04/2019 01:19:36 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-month = '7' and @data-day = '24'] and  locatorType: xpath
+08/04/2019 01:19:37 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-month = '7' and @data-day = '24'] locatorType: xpath
+08/04/2019 01:19:39 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='flight-returning-hp-flight'] and  locatorType: xpath
+08/04/2019 01:19:40 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='flight-returning-hp-flight'] locatorType: xpath
+08/04/2019 01:19:42 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-month = '7' and @data-day = '30'] and  locatorType: xpath
+08/04/2019 01:19:42 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-month = '7' and @data-day = '30'] locatorType: xpath
+08/04/2019 01:19:44 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='menu-bar gcw-travel-selector-wrapper']//button[@class='trigger-utility menu-trigger btn-utility btn-secondary dropdown-toggle theme-standard pin-left menu-arrow gcw-component gcw-traveler-amount-select gcw-component-initialized']   and  locatorType: xpath
+08/04/2019 01:19:44 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='menu-bar gcw-travel-selector-wrapper']//button[@class='trigger-utility menu-trigger btn-utility btn-secondary dropdown-toggle theme-standard pin-left menu-arrow gcw-component gcw-traveler-amount-select gcw-component-initialized']   locatorType: xpath
+08/04/2019 01:19:46 PM - SeleniumDriver - INFO: Element found with locator: //li[@class='open']//button[@class='close btn-text']  and  locatorType: xpath
+08/04/2019 01:19:46 PM - SeleniumDriver - INFO: Clicked on element with locator: //li[@class='open']//button[@class='close btn-text']  locatorType: xpath
+08/04/2019 01:19:48 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='cols-nested ab25184-submit']//button[@class='btn-primary btn-action gcw-submit']   and  locatorType: xpath
+08/04/2019 01:19:49 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='cols-nested ab25184-submit']//button[@class='btn-primary btn-action gcw-submit']   locatorType: xpath
+08/04/2019 01:19:51 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='flight-destination-hp-flight'] and  locatorType: xpath
+08/04/2019 01:19:54 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='aria-option-1']  and  locatorType: xpath
+08/04/2019 01:19:54 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='aria-option-1']  locatorType: xpath
+08/04/2019 01:19:56 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='cols-nested ab25184-submit']//button[@class='btn-primary btn-action gcw-submit']   and  locatorType: xpath
+08/04/2019 01:19:59 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='cols-nested ab25184-submit']//button[@class='btn-primary btn-action gcw-submit']   locatorType: xpath
+08/04/2019 01:20:01 PM - SeleniumDriver - INFO: Element found with locator: //fieldset[@id='stops']//div[3]//div[1]//label[1] and  locatorType: xpath
+08/04/2019 01:20:02 PM - SeleniumDriver - INFO: Clicked on element with locator: //fieldset[@id='stops']//div[3]//div[1]//label[1] locatorType: xpath
+08/04/2019 01:20:04 PM - SeleniumDriver - INFO: Element found with locator:  //fieldset[@id='airlines']//div[3]//div[1]//label[1] and  locatorType: xpath
+08/04/2019 01:20:06 PM - SeleniumDriver - INFO: Clicked on element with locator:  //fieldset[@id='airlines']//div[3]//div[1]//label[1] locatorType: xpath
+08/04/2019 01:20:08 PM - SeleniumDriver - INFO: Element found with locator:  //fieldset[@id='airlines']//div[4]//div[1]//label[1] and  locatorType: xpath
+08/04/2019 01:20:09 PM - SeleniumDriver - INFO: Clicked on element with locator:  //fieldset[@id='airlines']//div[4]//div[1]//label[1] locatorType: xpath
+08/04/2019 01:20:11 PM - SeleniumDriver - INFO: Element found with locator: //fieldset[@id='departure-times']//div[2]//div[1]//label[1] and  locatorType: xpath
+08/04/2019 01:20:12 PM - SeleniumDriver - INFO: Clicked on element with locator: //fieldset[@id='departure-times']//div[2]//div[1]//label[1] locatorType: xpath
+08/04/2019 01:20:14 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='leg0-morning-arrival'] and  locatorType: xpath
+08/04/2019 01:20:15 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='leg0-morning-arrival'] locatorType: xpath
+08/04/2019 01:20:19 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='airportRowContainer_JFK'] and  locatorType: xpath
+08/04/2019 01:20:19 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@id='airportRowContainer_JFK'] locatorType: xpath
+08/04/2019 01:37:45 PM - SeleniumDriver - INFO: Element found with locator: tab-flight-tab-hp and  locatorType: id
+08/04/2019 01:37:46 PM - SeleniumDriver - INFO: Clicked on element with locator: tab-flight-tab-hp locatorType: id
+08/04/2019 01:37:49 PM - SeleniumDriver - INFO: Element found with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] and  locatorType: xpath
+08/04/2019 01:37:49 PM - SeleniumDriver - INFO: Clicked on element with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] locatorType: xpath
+08/04/2019 01:37:51 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-origin-hp-flight'] and  locatorType: xpath
+08/04/2019 01:37:53 PM - SeleniumDriver - INFO: Element found with locator: //a[@id='aria-option-1']//span[2] and  locatorType: xpath
+08/04/2019 01:37:54 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='aria-option-1']//span[2] locatorType: xpath
+08/04/2019 01:37:56 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-destination-hp-flight'] and  locatorType: xpath
+08/04/2019 01:39:24 PM - SeleniumDriver - INFO: Element found with locator: tab-flight-tab-hp and  locatorType: id
+08/04/2019 01:39:25 PM - SeleniumDriver - INFO: Clicked on element with locator: tab-flight-tab-hp locatorType: id
+08/04/2019 01:39:27 PM - SeleniumDriver - INFO: Element found with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] and  locatorType: xpath
+08/04/2019 01:39:27 PM - SeleniumDriver - INFO: Clicked on element with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] locatorType: xpath
+08/04/2019 01:39:29 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-origin-hp-flight'] and  locatorType: xpath
+08/04/2019 01:39:31 PM - SeleniumDriver - INFO: Element found with locator: //a[@id='aria-option-1']//span[2] and  locatorType: xpath
+08/04/2019 01:39:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='aria-option-1']//span[2] locatorType: xpath
+08/04/2019 01:39:34 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-destination-hp-flight'] and  locatorType: xpath
+08/04/2019 01:39:36 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='aria-option-0']/span[2]/div and  locatorType: xpath
+08/04/2019 01:39:36 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='aria-option-0']/span[2]/div locatorType: xpath
+08/04/2019 01:39:38 PM - SeleniumDriver - INFO: Element found with locator: flight-departing-hp-flight and  locatorType: id
+08/04/2019 01:39:39 PM - SeleniumDriver - INFO: Clicked on element with locator: flight-departing-hp-flight locatorType: id
+08/04/2019 01:39:41 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='25' and @data-month='8'] and  locatorType: xpath
+08/04/2019 01:39:42 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='25' and @data-month='8'] locatorType: xpath
+08/04/2019 01:39:44 PM - SeleniumDriver - INFO: Element found with locator: flight-returning-hp-flight and  locatorType: id
+08/04/2019 01:39:44 PM - SeleniumDriver - INFO: Clicked on element with locator: flight-returning-hp-flight locatorType: id
+08/04/2019 01:39:46 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='28' and @data-month='8'] and  locatorType: xpath
+08/04/2019 01:39:47 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='28' and @data-month='8'] locatorType: xpath
+08/04/2019 01:39:49 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='traveler-selector-hp-flight']//div/ul/li/button and  locatorType: xpath
+08/04/2019 01:39:49 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='traveler-selector-hp-flight']//div/ul/li/button locatorType: xpath
+08/04/2019 01:39:51 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1] and  locatorType: xpath
+08/04/2019 01:39:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1] locatorType: xpath
+08/04/2019 01:39:53 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button and  locatorType: xpath
+08/04/2019 01:39:54 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button locatorType: xpath
+08/04/2019 01:39:56 PM - SeleniumDriver - INFO: Element found with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button and  locatorType: css
+08/04/2019 01:40:00 PM - SeleniumDriver - INFO: Clicked on element with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button locatorType: css
+08/04/2019 01:40:02 PM - SeleniumDriver - INFO: Element found with locator:  //input[@id='stopFilter_stops-0'] and  locatorType: xpath
+08/04/2019 01:40:03 PM - SeleniumDriver - INFO: Clicked on element with locator:  //input[@id='stopFilter_stops-0'] locatorType: xpath
+08/04/2019 01:40:24 PM - SeleniumDriver - INFO: Element found with locator: tab-flight-tab-hp and  locatorType: id
+08/04/2019 01:40:25 PM - SeleniumDriver - INFO: Clicked on element with locator: tab-flight-tab-hp locatorType: id
+08/04/2019 01:40:27 PM - SeleniumDriver - INFO: Element found with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] and  locatorType: xpath
+08/04/2019 01:40:27 PM - SeleniumDriver - INFO: Clicked on element with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] locatorType: xpath
+08/04/2019 01:40:29 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-origin-hp-flight'] and  locatorType: xpath
+08/04/2019 01:40:31 PM - SeleniumDriver - INFO: Element found with locator: //a[@id='aria-option-1']//span[2] and  locatorType: xpath
+08/04/2019 01:40:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='aria-option-1']//span[2] locatorType: xpath
+08/04/2019 01:40:34 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-destination-hp-flight'] and  locatorType: xpath
+08/04/2019 01:42:06 PM - SeleniumDriver - INFO: Element found with locator: tab-flight-tab-hp and  locatorType: id
+08/04/2019 01:42:07 PM - SeleniumDriver - INFO: Clicked on element with locator: tab-flight-tab-hp locatorType: id
+08/04/2019 01:42:09 PM - SeleniumDriver - INFO: Element found with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] and  locatorType: xpath
+08/04/2019 01:42:09 PM - SeleniumDriver - INFO: Clicked on element with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] locatorType: xpath
+08/04/2019 01:42:11 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-origin-hp-flight'] and  locatorType: xpath
+08/04/2019 01:42:13 PM - SeleniumDriver - INFO: Element found with locator: //a[@id='aria-option-1']//span[2] and  locatorType: xpath
+08/04/2019 01:42:13 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='aria-option-1']//span[2] locatorType: xpath
+08/04/2019 01:42:16 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-destination-hp-flight'] and  locatorType: xpath
+08/04/2019 01:42:18 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='aria-option-0']/span[2]/div and  locatorType: xpath
+08/04/2019 01:42:18 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='aria-option-0']/span[2]/div locatorType: xpath
+08/04/2019 01:42:20 PM - SeleniumDriver - INFO: Element found with locator: flight-departing-hp-flight and  locatorType: id
+08/04/2019 01:42:21 PM - SeleniumDriver - INFO: Clicked on element with locator: flight-departing-hp-flight locatorType: id
+08/04/2019 01:42:23 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='25' and @data-month='8'] and  locatorType: xpath
+08/04/2019 01:42:23 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='25' and @data-month='8'] locatorType: xpath
+08/04/2019 01:42:25 PM - SeleniumDriver - INFO: Element found with locator: flight-returning-hp-flight and  locatorType: id
+08/04/2019 01:42:26 PM - SeleniumDriver - INFO: Clicked on element with locator: flight-returning-hp-flight locatorType: id
+08/04/2019 01:42:28 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='28' and @data-month='8'] and  locatorType: xpath
+08/04/2019 01:42:28 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='28' and @data-month='8'] locatorType: xpath
+08/04/2019 01:42:30 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='traveler-selector-hp-flight']//div/ul/li/button and  locatorType: xpath
+08/04/2019 01:42:31 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='traveler-selector-hp-flight']//div/ul/li/button locatorType: xpath
+08/04/2019 01:42:33 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1] and  locatorType: xpath
+08/04/2019 01:42:33 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1] locatorType: xpath
+08/04/2019 01:42:35 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button and  locatorType: xpath
+08/04/2019 01:42:35 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button locatorType: xpath
+08/04/2019 01:42:37 PM - SeleniumDriver - INFO: Element found with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button and  locatorType: css
+08/04/2019 01:42:42 PM - SeleniumDriver - INFO: Clicked on element with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button locatorType: css
+08/04/2019 01:42:45 PM - SeleniumDriver - INFO: Element found with locator:  //input[@id='stopFilter_stops-0'] and  locatorType: xpath
+08/04/2019 01:42:46 PM - SeleniumDriver - INFO: Clicked on element with locator:  //input[@id='stopFilter_stops-0'] locatorType: xpath
+08/04/2019 01:43:05 PM - SeleniumDriver - INFO: Element found with locator: tab-flight-tab-hp and  locatorType: id
+08/04/2019 01:43:06 PM - SeleniumDriver - INFO: Clicked on element with locator: tab-flight-tab-hp locatorType: id
+08/04/2019 01:43:08 PM - SeleniumDriver - INFO: Element found with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] and  locatorType: xpath
+08/04/2019 01:43:09 PM - SeleniumDriver - INFO: Clicked on element with locator:  //label[@id='flight-type-roundtrip-label-hp-flight'] locatorType: xpath
+08/04/2019 01:43:11 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-origin-hp-flight'] and  locatorType: xpath
+08/04/2019 01:43:14 PM - SeleniumDriver - INFO: Element found with locator: //a[@id='aria-option-1']//span[2] and  locatorType: xpath
+08/04/2019 01:43:16 PM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='aria-option-1']//span[2] locatorType: xpath
+08/04/2019 01:43:18 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='flight-destination-hp-flight'] and  locatorType: xpath
+08/04/2019 01:43:21 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='aria-option-0']/span[2]/div and  locatorType: xpath
+08/04/2019 01:43:22 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='aria-option-0']/span[2]/div locatorType: xpath
+08/04/2019 01:43:24 PM - SeleniumDriver - INFO: Element found with locator: flight-departing-hp-flight and  locatorType: id
+08/04/2019 01:43:24 PM - SeleniumDriver - INFO: Clicked on element with locator: flight-departing-hp-flight locatorType: id
+08/04/2019 01:43:26 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='25' and @data-month='8'] and  locatorType: xpath
+08/04/2019 01:43:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='25' and @data-month='8'] locatorType: xpath
+08/04/2019 01:43:29 PM - SeleniumDriver - INFO: Element found with locator: flight-returning-hp-flight and  locatorType: id
+08/04/2019 01:43:29 PM - SeleniumDriver - INFO: Clicked on element with locator: flight-returning-hp-flight locatorType: id
+08/04/2019 01:43:32 PM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='28' and @data-month='8'] and  locatorType: xpath
+08/04/2019 01:43:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='28' and @data-month='8'] locatorType: xpath
+08/04/2019 01:43:34 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='traveler-selector-hp-flight']//div/ul/li/button and  locatorType: xpath
+08/04/2019 01:43:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='traveler-selector-hp-flight']//div/ul/li/button locatorType: xpath
+08/04/2019 01:43:36 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1] and  locatorType: xpath
+08/04/2019 01:43:37 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/div/div/div[1]/div[4]/button/span[1] locatorType: xpath
+08/04/2019 01:43:39 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button and  locatorType: xpath
+08/04/2019 01:43:39 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-flight']/div/ul/li/div/footer/div/div[2]/button locatorType: xpath
+08/04/2019 01:43:41 PM - SeleniumDriver - INFO: Element found with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button and  locatorType: css
+08/04/2019 01:45:21 PM - SeleniumDriver - INFO: Clicked on element with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button locatorType: css
+08/04/2019 01:45:23 PM - SeleniumDriver - INFO: Element found with locator:  //input[@id='stopFilter_stops-0'] and  locatorType: xpath
+08/04/2019 01:45:23 PM - SeleniumDriver - INFO: Clicked on element with locator:  //input[@id='stopFilter_stops-0'] locatorType: xpath

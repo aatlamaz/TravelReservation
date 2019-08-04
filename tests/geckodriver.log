@@ -73,3 +73,254 @@ console.error: BroadcastService:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
 
 1561911285939	Marionette	INFO	Stopped listening on port 60468
+1564939157077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\18572\\AppData\\Local\\Temp\\rust_mozprofile.8NnguQPkIUML"
+1564939157613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564939157613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564939157613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564939160667	Marionette	INFO	Listening on port 51979
+1564939161061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564939174725	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564939179825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564939189458	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+open/</<@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:39662
+open/<@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:39712
+i/<@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:554874
+JavaScript error: https://s0.2mdn.net/8939204/1559154017507/Amtrak_GetCarriedAway_160x600.js, line 1192: ReferenceError: salida is not defined
+1564939205451	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564939208799	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+sendReplacement@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:244:116
+send@https://www.delta.com/flight-search/lib/v3.21.34/jquery-3.2.1.js:4:16670
+ajax@https://www.delta.com/flight-search/lib/v3.21.34/jquery-3.2.1.js:4:13502
+mh@https://www.delta.com/ruxitagentjs_ICA2SVfghjqr_10161190306152812.js:99:262
+wasCancelledCallback@https://www.delta.com/ruxitagentjs_ICA2SVfghjqr_10161190306152812.js:250:378
+N@https://www.delta.com/ruxitagentjs_ICA2SVfghjqr_10161190306152812.js:244:149
+@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:412:137
+@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:417:301
+window[ensightenOptions.ns]</b.Rule/this.execute@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:11:74
+window[ensightenOptions.ns]</e.test@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:7:3
+window[ensightenOptions.ns]</b.testAll@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:9:152
+window[ensightenOptions.ns]</b.Rule/this.execute@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:11:272
+window[ensightenOptions.ns]</e.test@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:7:3
+window[ensightenOptions.ns]</b.testAll@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:9:152
+window[ensightenOptions.ns]</b.registerRule@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:12:64
+window[ensightenOptions.ns]</b.bindImmediate@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:20:84
+ensightenInit@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:590:14
+@https://nexus.ensighten.com/delta/mtprod/Bootstrap.js:675:155
+1564939212164	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564939215250	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/8939204/1559154017507/Amtrak_GetCarriedAway_160x600.js, line 1192: ReferenceError: salida is not defined
+JavaScript error: https://cdn.flashtalking.com/101833/2686575/js/script.js, line 162: ReferenceError: frame_crsl_ctrl is not defined
+JavaScript error: https://cdn.flashtalking.com/101833/2686575/js/script.js, line 1656: ReferenceError: frame_crsl_cont is not defined
+JavaScript error: https://cdn.flashtalking.com/101833/2686576/js/script.js, line 161: ReferenceError: frame_crsl_ctrl is not defined
+JavaScript error: https://cdn.flashtalking.com/101833/2686576/js/script.js, line 1603: ReferenceError: frame_crsl_cont is not defined
+JavaScript error: https://cdn.flashtalking.com/101833/2686575/js/script.js, line 162: ReferenceError: frame_crsl_ctrl is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Child 1988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1988, Chrome_ChildThread] WARJavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Child 9872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 1376, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9092, Chrome_Ch1564939648875	Marionette	INFO	Stopped listening on port 51979
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564939987591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\18572\\AppData\\Local\\Temp\\rust_mozprofile.LTRX0ze7riRD"
+1564939988186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564939988186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564939988186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564939991271	Marionette	INFO	Listening on port 52873
+1564939991577	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Child 13796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13796, Chrome_ChildThread] WARNING: pipe error: 1[Child 13332, Chrome_ChildThread] WA
+###!!! [Child][MessageChannel] Error: (msgtype=0x610027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+RNING: pipe er
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ror: 109: file z:/ta
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+sk_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 13332, Chrome_
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+ChildThread] WARNING: pipe error: 109: file z:/tas[Parent 8604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/buil[Parent 7348, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2208, Chrome_ChildThread] WARNING: pipe error: 109: fi[Parent 7348, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/sr
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+c/ipc/chromium/src/ch
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+rome/common/ipc_channel_win.cc, line 341
+[Parent 7348, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6344, Chrome_ChildThread] WARN1564940336653	Marionette	INFO	Stopped listening on port 53202
+[GPU 1530
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564940356515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\18572\\AppData\\Local\\Temp\\rust_mozprofile.9LjRdWG3Jhyq"
+1564940357030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564940357030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564940357031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564940359806	Marionette	INFO	Listening on port 53473
+1564940359909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564940379459	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564940384565	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564940396582	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+open/</<@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_expedia_ads_legacy.js:1:39669
+open/<@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_expedia_ads_legacy.js:1:39719
+i/<@https://a.cdn.intentmedia.net/a2/javascripts/intent_media_expedia_ads_legacy.js:1:554881
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+1564940403505	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+n</n.prototype.instrumentSend/XMLHttpRequest.prototype.send@https://az416426.vo.msecnd.net/scripts/a/ai.0.js:1:43676
+send@https://www.cheapoair.com/fpnext/js/vendor.js?v=GT1AmlbUDVpvhAZwWzCR_4ORMq7_Sh3RR5pUppmshow1:1:85708
+ajax@https://www.cheapoair.com/fpnext/js/vendor.js?v=GT1AmlbUDVpvhAZwWzCR_4ORMq7_Sh3RR5pUppmshow1:1:83122
+r@https://www.cheapoair.com/fpnext/js/listingv2.js?v=CqohHF1VfgNqB7sZRYmuYsHIAjZUT8mD7VAAWAoI5co1:1:122409
+@https://www.cheapoair.com/fpnext/air/Listing/s/1/su/9b2355c1-078e-4dc0-a30d-52664999b8a1?fss=IntentMedia-Dom-PL:1723:46
+a@https://www.cheapoair.com/fpnext/js/vendor.js?v=GT1AmlbUDVpvhAZwWzCR_4ORMq7_Sh3RR5pUppmshow1:1:16873
+fireWith@https://www.cheapoair.com/fpnext/js/vendor.js?v=GT1AmlbUDVpvhAZwWzCR_4ORMq7_Sh3RR5pUppmshow1:1:17659
+ready@https://www.cheapoair.com/fpnext/js/vendor.js?v=GT1AmlbUDVpvhAZwWzCR_4ORMq7_Sh3RR5pUppmshow1:1:12367
+ft@https://www.cheapoair.com/fpnext/js/vendor.js?v=GT1AmlbUDVpvhAZwWzCR_4ORMq7_Sh3RR5pUppmshow1:1:9767
+JavaScript error: https://s0.2mdn.net/8939204/1563380911629/Amtrak-ShareFare-160x600.js?1556314204583, line 1142: ReferenceError: salida is not defined
+1564940409380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\18572\\AppData\\Local\\Temp\\rust_mozprofile.z9E3Ezye0OzW"
+1564940410091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564940410091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564940410091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564940413183	Marionette	INFO	Listening on port 53855
+1564940413277	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: https://yummy.consumable.com/4888/cnsmbl-container-160x600-ads/widget/iframe.js?cb=1564940407210, line 1: NS_ERROR_FAILURE: 
+JavaScript error: https://yummy.consumable.com/4884/cnsmbl-container-728x90-ads/widget/iframe.js?cb=1564940407238, line 1: NS_ERROR_FAILURE: 
+JavaScript error: https://yummy.consumable.com/4888/cnsmbl-container-160x600-ads/widget/iframe.js?cb=1564940407251, line 1: NS_ERROR_FAILURE: 
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript error: https://cdn-view.c3tag.com/v.js?cid=352&c3=N410601.3325855MIQ-251665657&creative=119149959&placement=251665657&advertiser=5980023&adid=447999184&size=160x600&campaign=22182988, line 10: NS_ERROR_FAILURE
+JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
+JavaScript error: https://cdn.flashtalking.com/xre/339/3399062/1698337/js/j-3399062-1698337.js, line 618: TypeError: o.adFrame is null
+JavaScript error: https://cdn.flashtalking.com/xre/339/3399062/1698350/js/j-3399062-1698350.js, line 618: TypeError: o.adFrame is null
+JavaScript error: https://fw.adsafeprotected.com/rjss/bgd/310051/37800915/xbbe/creative/adj?p=APEucNUzhzRTAVY8CJKrXRa1_51_NyahH-_fF5MTw_Uq4icmm5U6lS0&d=CkkAoCZ_4LwQ4EyqUmuJITDCDgv9Wzxj_AIIpX4tvd04Gyi2bLHMqLoU1BVzi78OlDkzRNqwYeGIQtvk2sXHXj7UmQPz9FQ4TsurEokNAKAmf-DN5c_8qjijc9VN__HCP9MsqR-uNZ_nx6TIwLd_Wz3FC3-niEnYOu9K22WQhWyN-jVFyr8UxRuQtA0mdYjE59VyTP2cHsv75l81iaCuSAS6WhBsnvgh4wdX1ez74I0J-d2L9pGZz4MDmsM1OMZzBfQqL6dd11JwkiuvRnN-Bt9rVMmaEG063E3AB8f6onnW2BshFt8f28veAjolDYebXaIGGRG-u31f3Uz0J8UmKycU5isOBLovwOhI1UOxVCGH1zmWI1QZXxag5Z2kFMWc7p7nd2o3jtJQEJlFoedXSOt4JpJ3-GoSUeY11ztbyZk5EuYKkngLdgrUpudIBAASDHISeU5SIHibPu4sIjJ1sQ6sFHGnqcM7ALWnyzMsI7j4Notxvw2SRGBjGh1bgD1-P4YSKpPyuY5KG0j1CraiWYbCKhgexbukZt0b5AeZz9PZC_nOLMI_dkktQJ36sVNGJe9ws4QfhCocjHtX80cLI_oPB2TVW9DsmmBYnSc7EnRQaPjKRSk-myZjdQ5Fc6W90Fy2sprhoLTbx9U9GiLQExeIWUWEaVps9mmiAaafazRvkGNLl-7oH5QXA6FoPRgci04YGC7CDyi-E8ca1NlO2Az3DWK98Rr-BssNPKexmNiG2GmZkvvEpRF8kdpgt3yUoeLwq-8U64vu9CXtnL8IPn8JyDA4IOhFAHJSil3J3CHetKykBUmY21OGLb7oTkO6sHEZEtJQkiK_DZYK-iQ-keyI8KQpSwf_EUoa4whwNCNYDvK_d5TcpXIHsfFjlLBEa64LAOl7tphee2PSVBmWs39w1zxg260qQzcTuXVyQETgMsSKAHMWqfod3B7JUBHErzixufdxu-Yradf-L4GJElRMimoP-XLCFCz-4Tw1Mf10T4qo8hcOrHSETTLJwkeGNg4AWJHo39gOC_nlz991FljN1twh53SwcbpMa4SAUzvvr1Jh4B0MdX8rtY9FuZh_e5k4QJacIgEp5_VwNWFWnxUlKG_fMD-vDJvipNEVE5rgVmBCu5jOkUl9O01SbhfxN1qdbm5d3-WzyJw5D-iSfDLMv51Tl27Bcd_Tg4e7Xnlzdy-okLxWI6moWZVC1e9-xZPfq7vCjUkczmki_wfJPYlsy5Ue9D5uM6Nh1aTqMzyYLogLc9p8pMymOQN6rmGaW3_t68-1PrOnAWFUjnW531mXLq1iNWxdjM9tdj-HbFSopDjLuvmFFr-EZ69hvah45oJuhNhfIebbxbwWHSSUnwX7zKCpC_WORj9irJ_zp_G6MEffq43EDzro0SSPaj5X28bc2jWuBeA3_-Wj4mTmQokuQ4DmurEXtyyiawoh0Qy5_KIUz1ryXKBoXcojhfYfqPCnBDqsnK0Gr5smcdDBZ9waC7xpWqSbSH6ywNhUrMK9rZc9GYe_-J0aljm9nDwdvDsmV6c1nx5Maq4d6CpHTA2zYKCJGAvmxKnPOwzT0hCgwKRTfSSAj8_cx9TzVVkcB_3XU0kVre8MOJ9_vuwP09QN_GJCfAJ-nrKJzJI0lwRIZQyJl8_HdiHm4APhRjXKjDlCYkj44-wPmGOCWPk6flYP4wO8L3GOKOPSerRlfQEM_KYLilmbfJUZvzmJePSucsQRbJ2PKGFbpzrtgHW74pmNvWxJTR_GNcY9VtzewBOzgQUNWnvE_jhHdHcRcDLwglooKJlX3qc9FjURZQ9JVY7yTTJavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+thrOYUAmI_a1pjEmE0E8kXMuZ8GYgYqYVN5fIRmBNYyGHP-BYnchOQnoXvAejbe2umhTar4XCe2FVdhEjAXJe0Y32glH_2fu2p449k7DHizny_dDz986c30ITqe4UzrSIP9T3u297LOO5eQw--FwTLfAoJ-qmR11mTXP0xQlq0koWG_VTwvfwGsLv1HA7iQaYhosk_e3WfL19FTbaVd_wXDwQ5_erEGPD2UVWrhuN6R4s_DNmvjbnQbcIEObrnY8GroloHg92EPkhPAHQ5li02fYkDLYNdmmXaQpNkapejxwrTDdDtU072NVeQc5MzyjjQJ_9g1mrNp7R5VXwf8NIf1KrVhVBr74Qc59Qr2xz02S0MwmAXO0Z_9sYGeqv6XFXs7vA7yL7hGxBaeMu9LEZPsXMaFggAEhLkaP1qpwtZHw2Yrb-UKqZ6_FlgAQ, line 909: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/4516568/1531762741623/2B_StarsCampaign_728x90_REVISED/index.html, line 175: TypeError: studio.Enabler is undefined
+t-1-en_US-16196621a76f634478350c35d036a6cc-min.js:16:2596
+addHearting/<@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:3:1315
+i@https://www.expedia.com/:30:2660
+d.require@https://www.expedia.com/:30:4389
+addHearting@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:3:1126
+d.init/<@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:534
+u@https://c.travel-assets.com/uitoolkit/2-224/9b00bf85b0f0826dd96f3c658d6069796b2d54db/core/js/uitk-jquery-jstemplate-bundle-min.js:2:7521
+add@https://c.travel-assets.com/uitoolkit/2-224/9b00bf85b0f0826dd96f3c658d6069796b2d54db/core/js/uitk-jquery-jstemplate-bundle-min.js:2:7823
+d.init@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:516
+@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:687
+i@https://www.expedia.com/:30:2660
+d.require@https://www.expedia.com/:30:4389
+@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:643
+1564940595779	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1564940604560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564940609794	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564940622112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+c@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:39233
+open@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:39755
+open/<@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:149242
+open@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:149265
+value@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:470467
+open_exit_unit_window@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:219416
+open_exit_unit@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:221313
+J@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:85163
+r/<@https://a.cdn.intentmedia.net/javascripts/intent_media_expedia_ads.js:1:66113
+p/<@https://a.cdn.intentmedia.net/javascripts/intent_media_expedia_ads.js:1:40485
+5672/t.exports@https://a.cdn.intentmedia.net/javascripts/intent_media_expedia_ads.js:1:32013
+p@https://a.cdn.intentmedia.net/javascripts/intent_media_expedia_ads.js:1:40439
+h@https://a.cdn.intentmedia.net/javascripts/intent_media_expedia_ads.js:1:41042
+openExitUnit@https://a.travel-assets.com/bundles/storefront-web/ads-bundle/ads-exitwindow-719c9743d132c003bd3dddc1b558cebd-min.js:2:1216
+n@https://a.travel-assets.com/bundles/storefront-web/ads-bundle/ads-exitwindow-719c9743d132c003bd3dddc1b558cebd-min.js:4:3939
+@https://a.travel-assets.com/bundles/storefront-web/ads-bundle/ads-exitwindow-719c9743d132c003bd3dddc1b558cebd-min.js:4:7286
+dispatch@https://c.travel-assets.com/uitoolkit/2-224/9b00bf85b0f0826dd96f3c658d6069796b2d54db/core/js/uitk-jquery-jstemplate-bundle-min.js:2:18894
+add/g.handle@https://c.travel-assets.com/uitoolkit/2-224/9b00bf85b0f0826dd96f3c658d6069796b2d54db/core/js/uitk-jquery-jstemplate-bundle-min.js:2:16913
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+1564940723749	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://s0.2mdn.net/8939204/1563384399814/Amtrak-ShareFare-160x600.js?1556315524813, line 1265: ReferenceError: salida is not defined
