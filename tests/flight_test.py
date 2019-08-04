@@ -38,7 +38,7 @@ class Flight1(unittest.TestCase):
         print("*"* 20)
 
 
-        dept_area = (driver.find_element_by_xpath("//section[@id='section-flight-tab-hp']//div[contains(@class,'cols-nested ab25184-location')]//div[1]//div[1]//div[2] "))
+        dept_area = driver.find_element_by_xpath("//section[@id='section-flight-tab-hp']//div[contains(@class,'cols-nested ab25184-location')]//div[1]//div[1]//div[2] ")
 
         if dept_area.is_enabled():
             print("TC010_Selecting Depart Area Pass")
@@ -91,8 +91,6 @@ class Flight1(unittest.TestCase):
 
 
         print("*"* 20)
-
-
 
 
 
