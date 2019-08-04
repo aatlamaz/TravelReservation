@@ -238,23 +238,18 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
 
-/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+[Parent 12644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_ch[Parent 12644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 66681564942198970	Marionette	INFO	Stopped listening on port 53855
 
-JavaScript error: https://yummy.consumable.com/4888/cnsmbl-container-160x600-ads/widget/iframe.js?cb=1564940407210, line 1: NS_ERROR_FAILURE: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+aScript error: https://yummy.consumable.com/4888/cnsmbl-container-160x600-ads/widget/iframe.js?cb=1564940407210, line 1: NS_ERROR_FAILURE: 
 JavaScript error: https://yummy.consumable.com/4884/cnsmbl-container-728x90-ads/widget/iframe.js?cb=1564940407238, line 1: NS_ERROR_FAILURE: 
 JavaScript error: https://yummy.consumable.com/4888/cnsmbl-container-160x600-ads/widget/iframe.js?cb=1564940407251, line 1: NS_ERROR_FAILURE: 
 JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line 5: unreachable code after return statement
@@ -270,40 +265,37 @@ JavaScript warning: https://clarium.global.ssl.fastly.net/gpt/a/wrap.js?v2, line
 JavaScript error: https://cdn.flashtalking.com/xre/339/3399062/1698337/js/j-3399062-1698337.js, line 618: TypeError: o.adFrame is null
 JavaScript error: https://cdn.flashtalking.com/xre/339/3399062/1698350/js/j-3399062-1698350.js, line 618: TypeError: o.adFrame is null
 JavaScript error: https://fw.adsafeprotected.com/rjss/bgd/310051/37800915/xbbe/creative/adj?p=APEucNUzhzRTAVY8CJKrXRa1_51_NyahH-_fF5MTw_Uq4icmm5U6lS0&d=CkkAoCZ_4LwQ4EyqUmuJITDCDgv9Wzxj_AIIpX4tvd04Gyi2bLHMqLoU1BVzi78OlDkzRNqwYeGIQtvk2sXHXj7UmQPz9FQ4TsurEokNAKAmf-DN5c_8qjijc9VN__HCP9MsqR-uNZ_nx6TIwLd_Wz3FC3-niEnYOu9K22WQhWyN-jVFyr8UxRuQtA0mdYjE59VyTP2cHsv75l81iaCuSAS6WhBsnvgh4wdX1ez74I0J-d2L9pGZz4MDmsM1OMZzBfQqL6dd11JwkiuvRnN-Bt9rVMmaEG063E3AB8f6onnW2BshFt8f28veAjolDYebXaIGGRG-u31f3Uz0J8UmKycU5isOBLovwOhI1UOxVCGH1zmWI1QZXxag5Z2kFMWc7p7nd2o3jtJQEJlFoedXSOt4JpJ3-GoSUeY11ztbyZk5EuYKkngLdgrUpudIBAASDHISeU5SIHibPu4sIjJ1sQ6sFHGnqcM7ALWnyzMsI7j4Notxvw2SRGBjGh1bgD1-P4YSKpPyuY5KG0j1CraiWYbCKhgexbukZt0b5AeZz9PZC_nOLMI_dkktQJ36sVNGJe9ws4QfhCocjHtX80cLI_oPB2TVW9DsmmBYnSc7EnRQaPjKRSk-myZjdQ5Fc6W90Fy2sprhoLTbx9U9GiLQExeIWUWEaVps9mmiAaafazRvkGNLl-7oH5QXA6FoPRgci04YGC7CDyi-E8ca1NlO2Az3DWK98Rr-BssNPKexmNiG2GmZkvvEpRF8kdpgt3yUoeLwq-8U64vu9CXtnL8IPn8JyDA4IOhFAHJSil3J3CHetKykBUmY21OGLb7oTkO6sHEZEtJQkiK_DZYK-iQ-keyI8KQpSwf_EUoa4whwNCNYDvK_d5TcpXIHsfFjlLBEa64LAOl7tphee2PSVBmWs39w1zxg260qQzcTuXVyQETgMsSKAHMWqfod3B7JUBHErzixufdxu-Yradf-L4GJElRMimoP-XLCFCz-4Tw1Mf10T4qo8hcOrHSETTLJwkeGNg4AWJHo39gOC_nlz991FljN1twh53SwcbpMa4SAUzvvr1Jh4B0MdX8rtY9FuZh_e5k4QJacIgEp5_VwNWFWnxUlKG_fMD-vDJvipNEVE5rgVmBCu5jOkUl9O01SbhfxN1qdbm5d3-WzyJw5D-iSfDLMv51Tl27Bcd_Tg4e7Xnlzdy-okLxWI6moWZVC1e9-xZPfq7vCjUkczmki_wfJPYlsy5Ue9D5uM6Nh1aTqMzyYLogLc9p8pMymOQN6rmGaW3_t68-1PrOnAWFUjnW531mXLq1iNWxdjM9tdj-HbFSopDjLuvmFFr-EZ69hvah45oJuhNhfIebbxbwWHSSUnwX7zKCpC_WORj9irJ_zp_G6MEffq43EDzro0SSPaj5X28bc2jWuBeA3_-Wj4mTmQokuQ4DmurEXtyyiawoh0Qy5_KIUz1ryXKBoXcojhfYfqPCnBDqsnK0Gr5smcdDBZ9waC7xpWqSbSH6ywNhUrMK9rZc9GYe_-J0aljm9nDwdvDsmV6c1nx5Maq4d6CpHTA2zYKCJGAvmxKnPOwzT0hCgwKRTfSSAj8_cx9TzVVkcB_3XU0kVre8MOJ9_vuwP09QN_GJCfAJ-nrKJzJI0lwRIZQyJl8_HdiHm4APhRjXKjDlCYkj44-wPmGOCWPk6flYP4wO8L3GOKOPSerRlfQEM_KYLilmbfJUZvzmJePSucsQRbJ2PKGFbpzrtgHW74pmNvWxJTR_GNcY9VtzewBOzgQUNWnvE_jhHdHcRcDLwglooKJlX3qc9FjURZQ9JVY7yTTJavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
-thrOYUAmI_a1pjEmE0E8kXMuZ8GYgYqYVN5fIRmBNYyGHP-BYnchOQnoXvAejbe2umhTar4XCe2FVdhEjAXJe0Y32glH_2fu2p449k7DHizny_dDz986c30ITqe4UzrSIP9T3u297LOO5eQw--FwTLfAoJ-qmR11mTXP0xQlq0koWG_VTwvfwGsLv1HA7iQaYhosk_e3WfL19FTbaVd_wXDwQ5_erEGPD2UVWrhuN6R4s_DNmvjbnQbcIEObrnY8GroloHg92EPkhPAHQ5li02fYkDLYNdmmXaQpNkapejxwrTDdDtU072NVeQc5MzyjjQJ_9g1mrNp7R5VXwf8NIf1KrVhVBr74Qc59Qr2xz02S0MwmAXO0Z_9sYGeqv6XFXs7vA7yL7hGxBaeMu9LEZPsXMaFggAEhLkaP1qpwtZHw2Yrb-UKqZ6_FlgAQ, line 909: NS_ERROR_NOT_INITIALIZED: 
-JavaScript error: https://s0.2mdn.net/4516568/1531762741623/2B_StarsCampaign_728x90_REVISED/index.html, line 175: TypeError: studio.Enabler is undefined
-t-1-en_US-16196621a76f634478350c35d036a6cc-min.js:16:2596
-addHearting/<@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:3:1315
-i@https://www.expedia.com/:30:2660
-d.require@https://www.expedia.com/:30:4389
-addHearting@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:3:1126
-d.init/<@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:534
-u@https://c.travel-assets.com/uitoolkit/2-224/9b00bf85b0f0826dd96f3c658d6069796b2d54db/core/js/uitk-jquery-jstemplate-bundle-min.js:2:7521
-add@https://c.travel-assets.com/uitoolkit/2-224/9b00bf85b0f0826dd96f3c658d6069796b2d54db/core/js/uitk-jquery-jstemplate-bundle-min.js:2:7823
-d.init@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:516
-@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:687
-i@https://www.expedia.com/:30:2660
-d.require@https://www.expedia.com/:30:4389
-@https://a.travel-assets.com/bundles/storefront-web/secondaryContent-bundle/cupidDestinations-1-en_US-89fd055cd660bfc2296977c36d96ee89-min.js:4:643
-1564940595779	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-bail@chrome://marionette/content/sync.js:223:64
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+[Parent 5464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 5464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ip[Parent 5464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2564, Chrome_ChildT1564942198874	Marionette	INFO	Stopped listening on port 60696
 
-1564940604560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-bail@chrome://marionette/content/sync.js:223:64
-1564940609794	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-bail@chrome://marionette/content/sync.js:223:64
-1564940622112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-bail@chrome://marionette/content/sync.js:223:64
-c@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:39233
-open@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:39755
-open/<@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:149242
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s%3DIntentMedia-Dom-PL, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://iad-2-apex.go.sonobi.com/sbi.js?aid=1564941143_b3df1a15392000e3d970cb74ccc6b0d7&as=null&ref=https%3A%2F%2Fwww.cheapoair.com%2Ffpnext%2Fair%2FListing%2Fs%2F1%2Fsu%2F9b2355c1-078e-4dc0-a30d-52664999b8a1%3Ffss%3DIntentMedia-Dom-PL, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://iad-2-apex.go.sonobi.com/sbi.js?aid=1564941173_50b1c5af5b66a327977e0a84148c50b4&as=null&ref=https%3A%2F%2Fwww.cheapoair.com%2Ffpnext%2Fair%2FListing%2Fs%2F1%2Fsu%2F9b2355c1-078e-4dc0-a30d-52664999b8a1%3Ffss%3DIntentMedia-Dom-PL, line 2: NS_ERROR_NOT_INITIALIZED: 
+[Parent 12252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7936, Chrome_CJavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Parent 12252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12756, Chrome_C1564942200675	Marionette	INFO	Stopped listening on port 53473
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+media_expedia_ads_legacy.js:1:149242
 open@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:149265
 value@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:470467
 open_exit_unit_window@https://a.cdn.intentmedia.net/a1/javascripts/intent_media_expedia_ads_legacy.js:1:219416
@@ -324,3 +316,97 @@ webdriverClickElement@chrome://marionette/content/interaction.js:183:11
 1564940723749	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 bail@chrome://marionette/content/sync.js:223:64
 JavaScript error: https://s0.2mdn.net/8939204/1563384399814/Amtrak-ShareFare-160x600.js?1556315524813, line 1265: ReferenceError: salida is not defined
+[Child 9336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9336, C[Parent 16108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10672, Chrome_ChildThread] WAR[Child 14916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14916, 1564942207882	Marionette	INFO	Stopped listening on port 61170
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1564942376375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\18572\\AppData\\Local\\Temp\\rust_mozprofile.N8insnjcvrvc"
+1564942377133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564942377133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564942377133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564942380984	Marionette	INFO	Listening on port 63563
+1564942381491	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1564942413225	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564942418500	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564942430979	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://s0.2mdn.net/sadbundle/17575453884569092096/Getaround_Errands_728x90/index.html, line 162: ReferenceError: TimelineMax is not defined
+JavaScript error: https://s0.2mdn.net/sadbundle/9184121878871015424/Getaround_Weekend_728x90/index.html, line 162: ReferenceError: TimelineMax is not defined
+1564942474686	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://5199053.fls.doubleclick.net/activityi;src=5199053;type=allpa0;cat=ocean0;u1=1;u2=air;u4=%7CUSD;u5=web;u6=BOS%7CNYC;u7=09%2F25%2F2019%7C09%2F28%2F2019;u9=09%2F25%2F2019%7C09%2F28%2F2019;u14=09%2F25%2F2019%7C09%2F28%2F2019;u8=BOS%7CNYC;u11=NYC;u13=New%20York%20City%7CNY%7CUS;u17=listing;u20=5e37ee230000016c5d821b9758700047;ord=8597424284199.947?, line 3: ReferenceError: ttd_dom_ready is not defined
+sion.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564942483385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564942489992	Marionette	INFO	Listening on port 64155
+1564942490149	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564942501989	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1564943168446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\18572\\AppData\\Local\\Temp\\rust_mozprofile.MDil6X02cOTM"
+1564943168935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564943168935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564943168935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564943173249	Marionette	INFO	Listening on port 64512
+1564943173542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564943187617	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564943203089	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: about:blank, line 1: ReferenceError: truste is not defined
+1564943208355	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564943221311	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564943248719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+nsion.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564943258742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564943262737	Marionette	INFO	Listening on port 64919
+1564943262927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564943356108	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564943361382	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1564943374187	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1564943403311	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://cdn.flashtalking.com/101833/2686577/js/script.js, line 1645: ReferenceError: frame_crsl_cont is not defined
+JavaScript error: https://cdn.flashtalking.com/101833/2686576/js/script.js, line 1603: ReferenceError: frame_crsl_cont is not defined
