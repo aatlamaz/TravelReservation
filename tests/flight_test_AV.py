@@ -1,5 +1,5 @@
 from selenium import webdriver
-from pages.flight_page_AA import FlightPage
+from pages.flight_page_AAA import FlightPage
 from base.webdriverfactory import WebDriverFactory
 
 import unittest
