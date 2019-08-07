@@ -1,13 +1,16 @@
 from selenium import webdriver
 from pages.hotel_page import HotelPage
-from base.webdriverfactory import WebDriverFactory
-
 import time
-# import unittest
+from base.webdriverfactory import WebDriverFactory
+import unittest
+# import allure
 
-class HotelTest():
-    def TC001(self):
-        wd = WebDriverFactory(browser="firefox")
+
+class Hoteltest(unittest.TestCase):
+    def test_page_1(self):
+        """Click Hotels Reservations Button"""
+
+        wd=WebDriverFactory(browser="firefox")
         driver=wd.getWebDriverInstance()
 
         htl = HotelPage(driver)
@@ -19,12 +22,9 @@ class HotelTest():
         else:
             print("Test case Tc001: Fail")
 
-    def TC002(self):
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
 
-        htl = HotelPage(driver)
-        htl.hoteltab()
+        """Enter City Name to Going to Tab"""
+
         htl.selectcitygoingtotab("new york")
 
         element = driver.find_element_by_xpath("//input[@id='hotel-destination-hp-hotel']")
@@ -33,12 +33,9 @@ class HotelTest():
         else:
             print("Test case Tc002: Fail")
 
-    def TC003(self):
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
 
-        htl = HotelPage(driver)
-        htl.hoteltab()
+        """Select Checkin Date"""
+
         htl.checkintab()
         htl.checkindate()
 
@@ -48,11 +45,9 @@ class HotelTest():
         else:
             print("Test case Tc003: Fail")
 
-    def TC004(self):
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
-        htl = HotelPage(driver)
-        htl.hoteltab()
+
+        """Select Checkout Date"""
+
         htl.checkouttab()
         htl.checkoutdate()
 
@@ -62,36 +57,22 @@ class HotelTest():
         else:
             print("Test case Tc004: Fail")
 
-    def TC005(self):
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
 
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
-        htl = HotelPage(driver)
-        htl.hoteltab()
-        htl.checkouttab()
-        htl.checkoutdate()
+        """Click Travelers Part and close travelers tab"""
+
         htl.adulttab()
-        htl.adultadd()
-        htl.closeadulttab()
+
         element = driver.find_element_by_xpath("//*[@id='traveler-selector-hp-hotel']/div/ul/li/button")
         if element.is_enabled():
             print("Test Case Tc005: Pass")
         else:
             print("Test case Tc005: Fail")
 
-    def TC006(self):
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
 
-        htl = HotelPage(driver)
-        htl.hoteltab()
-        htl.checkouttab()
-        htl.checkoutdate()
-        htl.adulttab()
-        htl.addroom()
-        htl.closeadulttab()
+        """Click Travelers and add Adult part"""
+
+        htl.adultadd()
+
 
         element = driver.find_element_by_xpath("//*[@id='traveler-selector-hp-hotel']/div/ul/li/button")
         if element.is_enabled():
@@ -99,46 +80,127 @@ class HotelTest():
         else:
             print("Test case Tc006: Fail")
 
-    def TC007(self):
 
-        wd = WebDriverFactory(browser="firefox")
-        driver = wd.getWebDriverInstance()
+        """Click Travelers and click Room part"""
 
-        htl = HotelPage(driver)
-        htl.hoteltab()
-        htl.selectcitygoingtotab("new york")
-        htl.checkintab()
-        htl.checkindate()
-        htl.checkouttab()
-        htl.checkoutdate()
-        htl.adulttab()
         htl.addroom()
-        htl.closeadulttab()
-        htl.seachinghotels()
 
-        ExpectedResult = "https://www.expedia.com/Hotel-Search?destination=New+York%2C+New+York&latLong=40.75668%2C-73.98647&regionId=178293&startDate=08%2F14%2F2019&endDate=08%2F15%2F2019&rooms=2&adults=2%2C1"
-        ActualResult = driver.current_url
 
-        if ExpectedResult==ActualResult:
+        element = driver.find_element_by_xpath("//*[@id='traveler-selector-hp-hotel']/div/ul/li/button")
+        if element.is_enabled():
             print("Test Case Tc007: Pass")
         else:
-            print("Test Case Tc007: Fail")
+            print("Test case Tc007: Fail")
 
 
-hh = HotelTest()
-hh.TC001()
-hh.TC002()
-hh.TC003()
-hh.TC004()
-hh.TC005()
-hh.TC006()
-hh.TC007()
+        """Click Travelers and click child travelers part"""
 
 
-# ExpectedResult = "https://www.expedia.com/Hotel-Search?destination=New+York%2C+New+York&latLong=40.75668%2C-73.98647&regionId=178293&startDate=08%2F14%2F2019&endDate=08%2F15%2F2019&rooms=2&adults=3%2C1"
-#         ActualResult = driver.current_url
-#
-#         if ExpectedResult==ActualResult:
-#             print("TC001 is PASS")
-#         else:
-#             print("TC001 is FAIL")
+        # htl.childadd()
+        htl.closeadulttab()
+
+        element = driver.find_element_by_xpath("//*[@id='traveler-selector-hp-hotel']/div/ul/li/button")
+        if element.is_enabled():
+            print("Test Case Tc008: Pass")
+        else:
+            print("Test case Tc008: Fail")
+
+
+        """Click search  and go to next hotels results page"""
+
+
+        htl.seachinghotels()
+
+
+        if driver.find_element_by_xpath("//legend[contains(text(),'Sort by')]").is_displayed():
+            print("Test Case Tc009: Pass")
+        else:
+            print("Test Case Tc009: Fail")
+
+
+        """Select Sort by Price and list hotels"""
+
+
+        htl.sortbyprice()
+
+        element = driver.find_element_by_xpath("//input[@id='radio-sort-price']")
+        if element.is_enabled():
+            print("Test Case Tc010: Pass")
+        else:
+            print("Test case Tc010: Fail")
+
+    def test_page_2(self):
+        """Select price and popular filters and list hotels"""
+
+        wd = WebDriverFactory(browser="firefox")
+        driver = wd.getWebDriverInstance_hotelsresultpage()
+
+        htl = HotelPage(driver)
+        htl.sortbyprice()
+        htl.popularfiltershotel()
+
+        element = driver.find_element_by_xpath("//input[@id='popularFilter-0-hotel']")
+        if element.is_enabled():
+            print("Test Case Tc011: Pass")
+        else:
+            print("Test case Tc011: Fail")
+
+
+        """Select price and popular filters and list hotels"""
+
+        htl.propertyclass()
+
+        element = driver.find_element_by_xpath("//fieldset[4]//div[1]//div[1]//div[4]//label[1]//span[1]")
+        if element.is_enabled():
+            print("Test Case Tc012: Pass")
+        else:
+            print("Test case Tc012: Fail")
+
+
+        """Select price and popular filters and free cancelation hotels"""
+
+        htl.freecancelation()
+
+        element = driver.find_element_by_xpath("//input[@id='paymentType-0-freeCancellation']")
+        if element.is_enabled():
+            print("Test Case Tc013: Pass")
+        else:
+            print("Test case Tc013: Fail")
+
+
+        """Select both 2 option, pay later reserve hotels and free cancelation"""
+
+        htl.paylater()
+
+        element = driver.find_element_by_xpath("//input[@id='paymentType-1-payLater']")
+        if element.is_enabled():
+            print("Test Case Tc014: Pass")
+        else:
+            print("Test case Tc014: Fail")
+
+
+        """Select Breakfast include tab in Amenities part """
+
+        htl.amenities_breakfast()
+
+        element = driver.find_element_by_xpath("//input[@id='amenities-0-16']")
+        if element.is_enabled():
+            print("Test Case Tc015: Pass")
+        else:
+            print("Test case Tc015: Fail")
+
+
+        """Select Hotel part"""
+
+        htl.select_hotel()
+
+        Expected_result = "https://www.expedia.com/Hotel-Elysee-by-Library-Hotel-Collection.h11162.Hotel-Information?chkin=8%2F28%2F2019&chkout=8%2F29%2F2019&regionId=178293&destination=New+York+%28and+vicinity%29%2C+New+York%2C+United+States+of+America&swpToggleOn=true&rm1=a2&rm2=a1&x_pwa=1&amenities=16&star=40&sort=price&lodging=hotel&top_dp=256&top_cur=USD&rfrr=HSR&pwa_ts=1564928149039"
+        Actual_result = driver.current_url
+        if Expected_result==Actual_result:
+            print("Test Case Tc016: Pass")
+        else:
+            print("Test case Tc016: Fail")
+
+hh = Hoteltest()
+hh.test_page_1()
+hh.test_page_2()
