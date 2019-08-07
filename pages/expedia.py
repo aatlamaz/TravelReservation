@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 
-class Expedia():
+class Expedia123():
     def test(self):
         baseUrl = "https://www.expedia.com/"
         driver = webdriver.Firefox()
