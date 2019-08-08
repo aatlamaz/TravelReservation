@@ -164,7 +164,7 @@ from base.webdriverfactory import WebDriverFactory
 # import allure
 
 class Flighttest(unittest.TestCase):
-    def test_page1(self):
+    def test_page_1(self):
         wd = WebDriverFactory(browser="firefox")
         driver = wd.getWebDriverInstance()
         ft = FlightPage(driver)
@@ -442,7 +442,7 @@ class Flighttest(unittest.TestCase):
 
 
 ff=Flighttest()
-ff.test_page1()
+ff.test_page_1()
 # ff.test_page2()
 # ff.test_page3()
 
