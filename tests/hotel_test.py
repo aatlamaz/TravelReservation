@@ -192,14 +192,14 @@ class Hoteltest(unittest.TestCase):
 
         """Select Hotel part"""
 
-        htl.select_hotel()
-
-        Expected_result = "https://www.expedia.com/Hotel-Elysee-by-Library-Hotel-Collection.h11162.Hotel-Information?chkin=8%2F28%2F2019&chkout=8%2F29%2F2019&regionId=178293&destination=New+York+%28and+vicinity%29%2C+New+York%2C+United+States+of+America&swpToggleOn=true&rm1=a2&rm2=a1&x_pwa=1&amenities=16&star=40&sort=price&lodging=hotel&top_dp=256&top_cur=USD&rfrr=HSR&pwa_ts=1564928149039"
-        Actual_result = driver.current_url
-        if Expected_result==Actual_result:
-            print("Test Case Tc016: Pass")
-        else:
-            print("Test case Tc016: Fail")
+        # htl.select_hotel()
+        #
+        # Expected_result = "https://www.expedia.com/Hotel-Elysee-by-Library-Hotel-Collection.h11162.Hotel-Information?chkin=8%2F28%2F2019&chkout=8%2F29%2F2019&regionId=178293&destination=New+York+%28and+vicinity%29%2C+New+York%2C+United+States+of+America&swpToggleOn=true&rm1=a2&rm2=a1&x_pwa=1&amenities=16&star=40&sort=price&lodging=hotel&top_dp=256&top_cur=USD&rfrr=HSR&pwa_ts=1564928149039"
+        # Actual_result = driver.current_url
+        # if Expected_result==Actual_result:
+        #     print("Test Case Tc016: Pass")
+        # else:
+        #     print("Test case Tc016: Fail")
 
 hh = Hoteltest()
 hh.test_page_1()
