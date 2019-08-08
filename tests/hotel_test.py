@@ -7,6 +7,8 @@ import unittest
 
 
 class Hoteltest(unittest.TestCase):
+
+    #tell me what it is about
     def test_page_1(self):
         """Click Hotels Reservations Button"""
 
@@ -129,6 +131,7 @@ class Hoteltest(unittest.TestCase):
         else:
             print("Test case Tc010: Fail")
 
+    #whats going on here
     def test_page_2(self):
         """Select price and popular filters and list hotels"""
 

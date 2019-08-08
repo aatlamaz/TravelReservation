@@ -11,8 +11,10 @@ import time
 import os
 import traceback
 
+#What is this about pelase explain
 class SeleniumDriver():
 
+#What is this about pelase explain
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
@@ -40,7 +42,7 @@ class SeleniumDriver():
 
     def getTitle(self):
         return self.driver.title
-
+#put your comments before all def
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
         if locatorType == "id":
