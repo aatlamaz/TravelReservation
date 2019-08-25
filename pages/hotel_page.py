@@ -52,10 +52,6 @@ class HotelPage(SeleniumDriver):
         return self.elementClick(self._hotel_tab, locatorType="xpath")
     def sendkey_goingtotab(self,_goingto_tab):
         return self.sendKeys(_goingto_tab, self._goingto_tab,locatorType="xpath")
-    # def keydown(self,_goingto_tab):
-    #     return self.sendKeys(_goingto_tab,self._goingto_tab)
-    # def click_goingtocity(self):
-    #    return self.elementClick(self._goingto_city,locatorType="css")
     def click_checkintab(self):
         return self.elementClick(self._checkin_tab,locatorType="xpath")
     def click_checkindate(self):
