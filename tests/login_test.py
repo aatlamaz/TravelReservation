@@ -10,8 +10,8 @@ import time
 class LoginTest(unittest.TestCase): # LOGIN PART
 
     def test1(self): #getting into account
-        # wd = WebDriverFactory(browser="chrome")
-        # driver = wd.getWebDriverInstance()
+        wd = WebDriverFactory(browser="chrome")
+        driver = wd.getWebDriverInstance()
 
         name = driver.find_element_by_xpath("//button[@id='header-account-menu-signed-in']").text
         if name=="Hello, summer":
@@ -25,8 +25,8 @@ class LoginTest(unittest.TestCase): # LOGIN PART
 
     def test2(self): #wrong email address
 
-        # wd = WebDriverFactory(browser="firefox")
-        # driver = wd.getWebDriverInstance()
+        wd = WebDriverFactory(browser="firefox")
+        driver = wd.getWebDriverInstance()
 
         errormassege = driver.find_element_by_xpath("//div[@id='gss-signin-incorrect-email-or-password']")
         if errormassege.is_displayed():
