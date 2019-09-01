@@ -136,3 +136,89 @@
 08/04/2019 01:45:21 PM - SeleniumDriver - INFO: Clicked on element with locator: #gcw-flights-form-hp-flight > div.cols-nested.ab25184-submit > label > button locatorType: css
 08/04/2019 01:45:23 PM - SeleniumDriver - INFO: Element found with locator:  //input[@id='stopFilter_stops-0'] and  locatorType: xpath
 08/04/2019 01:45:23 PM - SeleniumDriver - INFO: Clicked on element with locator:  //input[@id='stopFilter_stops-0'] locatorType: xpath
+09/01/2019 09:58:31 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 09:58:32 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 09:58:33 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 09:58:34 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 09:58:35 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 09:58:37 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 09:58:38 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 09:58:39 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath
+09/01/2019 09:59:10 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 09:59:11 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 09:59:12 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 09:59:12 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 09:59:14 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 09:59:16 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 09:59:17 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 09:59:17 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath
+09/01/2019 10:07:05 AM - SeleniumDriver - INFO: Element not found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 10:07:05 AM - SeleniumDriver - INFO: Cannot click on the element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 10:07:10 AM - SeleniumDriver - INFO: Element not found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 10:07:10 AM - SeleniumDriver - INFO: Cannot click on the element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 10:07:11 AM - SeleniumDriver - INFO: Element not found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 10:08:02 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 10:08:02 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 10:08:03 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 10:08:04 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 10:08:05 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 10:08:06 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 10:08:07 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 10:08:07 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath
+09/01/2019 10:09:21 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 10:09:22 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 10:09:23 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 10:09:23 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 10:09:25 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 10:09:26 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 10:09:28 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 10:09:29 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath
+09/01/2019 10:11:35 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 10:11:36 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 10:11:37 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 10:11:37 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 10:11:38 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 10:11:40 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 10:11:41 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 10:11:41 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath
+09/01/2019 10:14:02 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='tab-hotel-tab-hp'] and  locatorType: xpath
+09/01/2019 10:14:03 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='tab-hotel-tab-hp'] locatorType: xpath
+09/01/2019 10:14:06 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='hotel-destination-hp-hotel'] and  locatorType: xpath
+09/01/2019 10:14:13 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='hotel-destination-hp-hotel'] and  locatorType: xpath
+09/01/2019 10:14:16 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='hotel-destination-hp-hotel'] and  locatorType: xpath
+09/01/2019 10:14:17 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='hotel-checkin-hp-hotel'] and  locatorType: xpath
+09/01/2019 10:14:17 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='hotel-checkin-hp-hotel'] locatorType: xpath
+09/01/2019 10:14:19 AM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='28' and @data-month='9'] and  locatorType: xpath
+09/01/2019 10:14:20 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='28' and @data-month='9'] locatorType: xpath
+09/01/2019 10:14:22 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='hotel-checkout-hp-hotel'] and  locatorType: xpath
+09/01/2019 10:14:23 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='hotel-checkout-hp-hotel'] locatorType: xpath
+09/01/2019 10:14:25 AM - SeleniumDriver - INFO: Element found with locator: //button[@data-day='28' and @data-month='9'] and  locatorType: xpath
+09/01/2019 10:14:26 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@data-day='28' and @data-month='9'] locatorType: xpath
+09/01/2019 10:14:28 AM - SeleniumDriver - INFO: Element found with locator: //*[@id='traveler-selector-hp-hotel']/div/ul/li/button and  locatorType: xpath
+09/01/2019 10:14:28 AM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='traveler-selector-hp-hotel']/div/ul/li/button locatorType: xpath
+09/01/2019 10:14:30 AM - SeleniumDriver - INFO: Element found with locator: //body[@class='wrap cf aoa-enabled']/meso-native-marquee/section[@id='WizardHero']/div[@id='hero-banner']/div[@class='hero-banner-gradient native-marquee']/div[@class='cols-row hero-banner-inner']/section[@id='wizardSection']/div[@class='hero-banner-box siteId-1 cf hideClassicDcol']/div[@id='wizard-tabs']/div[@class='tabs-container col']/section[@id='section-hotel-tab-hp']/form[@id='gcw-hotel-form-hp-hotel']/div[@class='cols-nested ab25184-dates-travelers']/div[@id='traveler-selector-hp-hotel']/div[@class='menu-bar gcw-travel-selector-wrapper traveler-selector-multi-rooms']/ul[@class='menu-bar-inner']/li[@class='open']/div[@class='menu sticky gcw-menu']/div[@class='menu-main']/div[@class='traveler-selector-room-data']/div[@class='uitk-grid step-input-outside gcw-component gcw-component-step-input gcw-step-input gcw-component-initialized']/div[@class='uitk-col all-col-shrink']/button[@class='uitk-step-input-button uitk-step-input-plus']/span[@class='uitk-icon']/*[1] and  locatorType: xpath
+09/01/2019 10:14:31 AM - SeleniumDriver - INFO: Clicked on element with locator: //body[@class='wrap cf aoa-enabled']/meso-native-marquee/section[@id='WizardHero']/div[@id='hero-banner']/div[@class='hero-banner-gradient native-marquee']/div[@class='cols-row hero-banner-inner']/section[@id='wizardSection']/div[@class='hero-banner-box siteId-1 cf hideClassicDcol']/div[@id='wizard-tabs']/div[@class='tabs-container col']/section[@id='section-hotel-tab-hp']/form[@id='gcw-hotel-form-hp-hotel']/div[@class='cols-nested ab25184-dates-travelers']/div[@id='traveler-selector-hp-hotel']/div[@class='menu-bar gcw-travel-selector-wrapper traveler-selector-multi-rooms']/ul[@class='menu-bar-inner']/li[@class='open']/div[@class='menu sticky gcw-menu']/div[@class='menu-main']/div[@class='traveler-selector-room-data']/div[@class='uitk-grid step-input-outside gcw-component gcw-component-step-input gcw-step-input gcw-component-initialized']/div[@class='uitk-col all-col-shrink']/button[@class='uitk-step-input-button uitk-step-input-plus']/span[@class='uitk-icon']/*[1] locatorType: xpath
+09/01/2019 10:14:33 AM - SeleniumDriver - INFO: Element found with locator:  //li[@class='open']//a[text()='Add another room'] and  locatorType: xpath
+09/01/2019 10:14:34 AM - SeleniumDriver - INFO: Clicked on element with locator:  //li[@class='open']//a[text()='Add another room'] locatorType: xpath
+09/01/2019 10:14:36 AM - SeleniumDriver - INFO: Element found with locator: //li[@class='open']//button[@class='close btn-text'] and  locatorType: xpath
+09/01/2019 10:14:36 AM - SeleniumDriver - INFO: Clicked on element with locator: //li[@class='open']//button[@class='close btn-text'] locatorType: xpath
+09/01/2019 10:14:38 AM - SeleniumDriver - INFO: Element found with locator: //*[@id='gcw-hotel-form-hp-hotel']/div[10]/label/button and  locatorType: xpath
+09/01/2019 10:14:48 AM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='gcw-hotel-form-hp-hotel']/div[10]/label/button locatorType: xpath
+09/01/2019 10:14:50 AM - SeleniumDriver - INFO: Element found with locator: //input[@id='radio-sort-price'] and  locatorType: xpath
+09/01/2019 10:14:51 AM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='radio-sort-price'] locatorType: xpath
+09/01/2019 10:19:34 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 10:19:36 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 10:19:37 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 10:19:38 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 10:19:39 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 10:19:43 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 10:19:46 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 10:19:51 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath
+09/01/2019 10:21:19 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='header-account-menu'] and  locatorType: xpath
+09/01/2019 10:21:20 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='header-account-menu'] locatorType: xpath
+09/01/2019 10:21:21 AM - SeleniumDriver - INFO: Element found with locator: //a[@id='account-signin'] and  locatorType: xpath
+09/01/2019 10:21:22 AM - SeleniumDriver - INFO: Clicked on element with locator: //a[@id='account-signin'] locatorType: xpath
+09/01/2019 10:21:23 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-email and  locatorType: css
+09/01/2019 10:21:24 AM - SeleniumDriver - INFO: Element found with locator: #gss-signin-password and  locatorType: css
+09/01/2019 10:21:26 AM - SeleniumDriver - INFO: Element found with locator: //button[@id='gss-signin-submit'] and  locatorType: xpath
+09/01/2019 10:21:28 AM - SeleniumDriver - INFO: Clicked on element with locator: //button[@id='gss-signin-submit'] locatorType: xpath

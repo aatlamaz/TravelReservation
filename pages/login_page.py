@@ -21,6 +21,7 @@ class LoginPage(SeleniumDriver):
 
 
 
+
     def clickAccount(self):
         self.elementClick(self._account, locatorType='xpath')
 
@@ -53,7 +54,7 @@ class LoginPage(SeleniumDriver):
         time.sleep(1)
 
         self.clickSignIn()
-        time.sleep(1)
+        time.sleep(15)
 
 
 
